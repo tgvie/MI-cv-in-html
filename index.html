@@ -29,7 +29,7 @@
     <section>
         <article>
             <ul>
-                <b>Educations</b>
+                <h4>Educations</h4>
                 <li>Education 1</li>
                 <li>Education 2</li>
                 <li>Education 3</li>
@@ -37,7 +37,7 @@
         </article>
         <article>
             <ul>
-                <b>Work Experiences</b>
+                <h4>Work Experiences</h4>
                 <li>Experience 1</li>
                 <li>Experience 2</li>
                 <li>Experience 3</li>
@@ -46,7 +46,7 @@
         </article>
         <article>
             <ul>
-                <b>Skills</b>
+                <h4>Skills</h4>
                 <li>Skill 1</li>
                 <li>Skill 2</li>
                 <li>Skill 3</li>
@@ -55,6 +55,28 @@
             </ul>
         </article>
     </section>
+
+    <fieldset>
+        <legend><h3>Message me!📮</h3></legend>
+        <form>
+            <label><input type="text" name="fname" placeholder="First Name"/></label>
+            <label><input type="text" name="lname" placeholder="Last Name"></label>
+            <br>
+            <label><input type="email" name="email" placeholder="E-mail"></label>
+            <br>
+            <textarea name="message" placeholder="Your message"></textarea>
+            <br>
+            <label for="contactReason">Reason for contact</label>
+            <select name="contactReason">
+                <option value="work">Work</option>
+                <option value="school">School</option>
+                <option value="others">Others (please specify in message)</option>
+            </select>
+            <br>
+            <input type="button" onclick="alert('Your message is sent!')" value="Submit">
+        </form>
+    </fieldset>
+    <footer>© 2024 Copyright. All Rights Reserved.</footer>
 </body>
 
 </html>
