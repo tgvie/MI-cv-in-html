@@ -39,19 +39,21 @@
         <a href="https://github.com/" target="_blank">GitHub</a>
         <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
     </nav>
+
     <img src="images/my_picture.png" alt="A picture of me">
-    <section>
+
+    <div id="aboutMe">
         <article>
+            <h4>Educations</h4>
             <ul>
-                <h4>Educations</h4>
                 <li>Education 1</li>
                 <li>Education 2</li>
                 <li>Education 3</li>
             </ul>
         </article>
         <article>
+            <h4>Work Experiences</h4>
             <ul>
-                <h4>Work Experiences</h4>
                 <li>Experience 1</li>
                 <li>Experience 2</li>
                 <li>Experience 3</li>
@@ -59,8 +61,8 @@
             </ul>
         </article>
         <article>
+            <h4>Skills</h4>
             <ul>
-                <h4>Skills</h4>
                 <li>Skill 1</li>
                 <li>Skill 2</li>
                 <li>Skill 3</li>
@@ -68,21 +70,21 @@
                 <li>Skill 5</li>
             </ul>
         </article>
-    </section>
+    </div>
 
     <fieldset>
         <legend>
             <h3>Message me!📮</h3>
         </legend>
         <form>
-            <label><input type="text" name="fname" placeholder="First Name" /></label>
+            <label><input type="text" name="fname" placeholder="First Name"></label>
             <label><input type="text" name="lname" placeholder="Last Name"></label>
             <br>
             <label><input type="email" name="email" placeholder="E-mail"></label>
             <br>
             <textarea name="message" placeholder="Your message"></textarea>
             <br>
-            <label for="contactReason">Reason for contact</label>
+            <label id="contactReason">Reason for contact</label>
             <select name="contactReason">
                 <option value="work">Work</option>
                 <option value="school">School</option>
@@ -92,6 +94,7 @@
             <input type="button" onclick="alert('Your message is sent!')" value="Submit">
         </form>
     </fieldset>
+
     <footer>© 2024 Copyright. All Rights Reserved.</footer>
 </body>
 
