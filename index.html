@@ -44,7 +44,7 @@
     <h1>My Name</h1>
     <h3>Web Developer</h3>
 
-    <div id="aboutMe">
+    <div class="aboutMe">
         <article>
             <h4>Educations</h4>
             <ul>
@@ -74,11 +74,11 @@
         </article>
     </div>
 
-    <fieldset>
+    <fieldset> <!--form should be wrapping fieldset (more semantically correct), not the other way around-->
         <legend>
             <h3>Message me!📮</h3>
         </legend>
-        <form>
+        <form> <!--form should be wrapping fieldset (more semantically correct), not the other way around-->
             <label><input type="text" name="fname" placeholder="First Name"></label>
             <label><input type="text" name="lname" placeholder="Last Name"></label>
             <br>
@@ -86,14 +86,14 @@
             <br>
             <textarea name="message" placeholder="Your message"></textarea>
             <br>
-            <label id="contactReason">Reason for contact</label>
-            <select aria-label="Reason for contact">
+            <label for="contactReason" >Reason for contact</label>
+            <select id="contactReason" aria-label="Reason for contact">
                 <option value="work">Work</option>
                 <option value="school">School</option>
                 <option value="others">Others (please specify in message)</option>
             </select>
             <br>
-            <input type="button" onclick="alert('Your message is sent!')" value="Submit">
+            <input type="submit" onclick="alert('Your message is sent!')" value="Submit">
         </form>
     </fieldset>
 
