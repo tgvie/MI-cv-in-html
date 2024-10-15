@@ -1,4 +1,4 @@
-#My first assignment with HTML
+# My first assignment with HTML
 
 This is my first assigment utilizing solely HTML, with a focus on the following key aspects:
 
