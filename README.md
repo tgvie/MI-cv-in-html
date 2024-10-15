@@ -1,1 +1,9 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/RLoZwK__)
+#My first assignment with HTML
+
+This is my first assigment utilizing solely HTML, with a focus on the following key aspects:
+
+- Accessibility
+- Future-proofing
+- SEO practices
+- Enhancing developer experience (DX)
+- Enabling optimal integration of CSS and JavaScript later on
