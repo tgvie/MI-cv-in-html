@@ -16,3 +16,10 @@ This is my first assignment utilizing solely HTML, with a focus on the following
 ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=flat&logo=html5&logoColor=white)
 
 </div>
+
+<div align="right">
+  
+## ✍️ Author/s
+🧑‍💻 [@tgvie](https://github.com/tgvie)
+
+</div>
